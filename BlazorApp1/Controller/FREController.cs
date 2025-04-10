@@ -58,7 +58,7 @@ namespace English.Controller
                 return NotFound();
             }
 
-            return Ok(new RandomFreDTO(response.Text, response.Traduction, response.Ranking));
+            return Ok(new RandomFreDTO(response.Id, response.Text, response.Traduction, response.Ranking));
         }
 
         [HttpGet("GetFreById/{Id}")]
@@ -116,12 +116,19 @@ namespace English.Controller
         [HttpPost("postanswer")]
         public async Task<ActionResult<AnswerFreApiResponse>> PostAnswer([FromBody] AnswerFre Answer)
         {
-            string freRequestTextTraduction = Answer.Fre.RemoveAccents(Answer.Fre.RemoveSymbols(Answer.Fre.Traduction)).ToLower().Trim();
-            string AnswerWithoutSymbols = Answer.Fre.RemoveAccents(Answer.Fre.RemoveSymbols(Answer.Fre.Traduction)).ToLower().Trim();
+            FRE Fre = await FREService.GetFreById(Answer.IdFre);
+
+            if (Fre == null)
+            {
+                return NotFound();
+            }
+
+            string freRequestTextTraduction = Fre.RemoveAccents(Fre.RemoveSymbols(Fre.Traduction)).ToLower().Trim();
+            string AnswerWithoutSymbols = Fre.RemoveAccents(Fre.RemoveSymbols(Fre.Traduction)).ToLower().Trim();
 
             if (freRequestTextTraduction.Equals(AnswerWithoutSymbols))
             {
-                if (Answer.Text.Equals(Answer.Fre.Traduction))
+                if (Answer.Text.Equals(Fre.Traduction))
                 {
                     return new AnswerFreApiResponse(StatusCodes.Status200OK, "Perfect!", Enums.Correctness.Perfectly);
                 }

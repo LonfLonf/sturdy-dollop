@@ -5,6 +5,6 @@ namespace English.Model
     public class AnswerFre
     {
         public string Text { get; set; }
-        public FRE.FRE Fre { get; set; }
+        public int IdFre { get; set; }
     }
 }

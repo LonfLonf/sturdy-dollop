@@ -55,6 +55,13 @@
             string content = await responseMessage.Content.ReadAsStringAsync();
 
             freDTO = JsonConvert.DeserializeObject<FreDTO>(content);
+
+            if (freDTO == null)
+            {
+                textDefault = "Click in Next Again - ERROR";
+                return;
+            }
+
             textDefault = freDTO.Text;
         }
     }
