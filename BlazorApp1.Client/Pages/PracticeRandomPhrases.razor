@@ -1,0 +1,47 @@
+﻿@page "/PracticeRandomPhrases"
+@rendermode InteractiveWebAssembly
+
+<header>
+    <English.Client.Layout.NavBar></English.Client.Layout.NavBar>
+</header>
+
+<main class="container-fluid">
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="d-flex flex-column align-items-center" style="gap: 8rem;">
+
+            <div class="textQuestion">
+                @textDefault
+            </div>
+
+            <select @bind="selectedValue" name="Ranking Phrases" id="cars" class="dropRanking">
+                <option value="" disabled selected>Select a Level of Phrase</option>
+                <option value="0">Stupid Easy</option>
+                <option value="1">Easy</option>
+                <option value="2">Reasonably easy</option>
+                <option value="3">Normal</option>
+                <option value="4">Reasonably Hard</option>
+                <option value="5">Hard</option>
+                <option value="6">Really Hard</option>
+            </select>
+
+            <input @bind="answerText" class="textQuestion" placeholder=" Put Something" />
+
+            <div class="d-flex gap-3">
+                <button type="button" class="btn btn-outline-secondary" @onclick="NextButton_Click">AAAAAAA</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            </div>
+
+        </div>
+    </div>
+</main>
+
+@code {
+    public string selectedValue;
+    public string textDefault = "Choose a level and click Next to start.";
+    public string answerText;
+
+    public void NextButton_Click()
+    {
+        textDefault = $"Selecionado: {selectedValue}, Resposta: {answerText}";
+    }
+}

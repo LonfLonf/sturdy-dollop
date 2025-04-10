@@ -1,0 +1,6 @@
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\EnglishLearn.Client.csproj.AssemblyReference.cache
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\EnglishLearn.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\EnglishLearn.Client.AssemblyInfoInputs.cache
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\EnglishLearn.Client.AssemblyInfo.cs
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\EnglishLearn.Client.csproj.CoreCompileInputs.cache
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\EnglishLearn.Client.MvcApplicationPartsAssemblyInfo.cache

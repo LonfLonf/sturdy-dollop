@@ -1,0 +1,4 @@
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\wwwroot\appsettings.Development.json
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\wwwroot\appsettings.json
+wwwroot\appsettings.Development.json
+wwwroot\appsettings.json
