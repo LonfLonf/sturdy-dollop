@@ -1,5 +1,5 @@
 ﻿@page "/PracticeRandomPhrases"
-@rendermode InteractiveWebAssembly
+@using Newtonsoft.Json
 
 <header>
     <English.Client.Layout.NavBar></English.Client.Layout.NavBar>
@@ -27,8 +27,8 @@
             <input @bind="answerText" class="textQuestion" placeholder=" Put Something" />
 
             <div class="d-flex gap-3">
-                <button type="button" class="btn btn-outline-secondary" @onclick="NextButton_Click">AAAAAAA</button>
-                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-secondary" @onclick="NextButton_Click">Next</button>
+                <button type="button" class="btn btn-outline-secondary">Submit</button>
             </div>
 
         </div>
@@ -40,8 +40,29 @@
     public string textDefault = "Choose a level and click Next to start.";
     public string answerText;
 
-    public void NextButton_Click()
+    public HttpClient httpClient = new HttpClient();
+
+    Uri uri = new Uri("https://localhost:7153/api/FRE/");
+
+    FreDTO freDTO;
+
+    public async Task NextButton_Click()
     {
-        textDefault = $"Selecionado: {selectedValue}, Resposta: {answerText}";
+        using HttpResponseMessage responseMessage = await httpClient.GetAsync(uri + "GetRandomFreByRanking/" + Convert.ToInt16(selectedValue));
+
+        if (responseMessage.IsSuccessStatusCode)
+        {
+            string content = await responseMessage.Content.ReadAsStringAsync();
+
+            freDTO = JsonConvert.DeserializeObject<FreDTO>(content);
+            textDefault = freDTO.Text;
+        }
+    }
+
+    class FreDTO
+    {
+        public int Id { get; set; }
+        public string Text { get; set; }
+        public string Traduction { get; set; }
     }
 }

@@ -259,7 +259,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "English.Model.FRE.FRE",
+        "Type": "BlazorApp1.DTO.RandomFreDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

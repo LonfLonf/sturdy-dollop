@@ -1,4 +1,5 @@
-﻿using English.Model;
+﻿using BlazorApp1.DTO;
+using English.Model;
 using English.Model.CERF;
 using English.Model.FRE;
 using English.Model.Requests;
@@ -48,7 +49,7 @@ namespace English.Controller
         }
 
         [HttpGet("GetRandomFreByRanking/{Ranking}")]
-        public async Task<ActionResult<FRE>> GetRandomFreByRanking(int Ranking)
+        public async Task<ActionResult<RandomFreDTO>> GetRandomFreByRanking(int Ranking)
         {
             var response = await FREService.GetRandomFreByRanking(Ranking);
 
@@ -57,7 +58,7 @@ namespace English.Controller
                 return NotFound();
             }
 
-            return Ok(response);
+            return Ok(new RandomFreDTO(response.Text, response.Traduction, response.Ranking));
         }
 
         [HttpGet("GetFreById/{Id}")]
