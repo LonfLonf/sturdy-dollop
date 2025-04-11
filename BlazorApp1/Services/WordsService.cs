@@ -30,8 +30,13 @@ namespace BlazorApp1.Services
             return words[index].Id;
         }
 
-        public async Task<Words[]> getMultipleWords(int count)
+        public async Task<Words[]?> getMultipleWords(int count)
         {
+            if (count > 5)
+            {
+                return null;
+            }
+
             await CacheWords();
 
             Words[] multipleWords = new Words[count];

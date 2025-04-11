@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\pages\\practicerandomwords.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\pages\\practicerandomwords.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\controller\\cerfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\controller\\cerfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\pages\\practicerandomphrases.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\pages\\practicerandomphrases.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\controller\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\controller\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\controller\\frecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\controller\\frecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\services\\freservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\freservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\model\\requests\\wordsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\model\\requests\\wordsrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\services\\wordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\wordsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\model\\words.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\model\\words.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\enums\\correctness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\enums\\correctness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\model\\requests\\textrequestwithtraduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\model\\requests\\textrequestwithtraduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\pages\\practicerandomwords.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\pages\\practicerandomwords.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\pages\\practicerandomphrases.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\pages\\practicerandomphrases.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,14 +83,6 @@
       "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\model\\fre\\fre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\model\\texttotranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\model\\texttotranslate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\services\\freservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\freservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -79,36 +99,8 @@
       "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\services\\cerfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\cerfservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\records\\freapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\records\\freapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\records\\cerfapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\records\\cerfapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\records\\answercerfapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\records\\answercerfapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\model\\cerf\\cerf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\model\\cerf\\cerf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\model\\requests\\textrequestwithtraduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\model\\requests\\textrequestwithtraduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\model\\requests\\textrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,103 +118,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PracticeRandomWords.razor",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
-              "RelativeDocumentMoniker": "BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
-              "RelativeToolTip": "BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:58:03.264Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PracticeRandomPhrases.razor",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
-              "RelativeDocumentMoniker": "BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
-              "RelativeToolTip": "BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAwwKMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T18:09:15.115Z",
+              "Title": "WordsRequest.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Requests\\WordsRequest.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Model\\Requests\\WordsRequest.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Requests\\WordsRequest.cs",
+              "RelativeToolTip": "BlazorApp1\\Model\\Requests\\WordsRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:57:20.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WordsController.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\WordsController.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Controller\\WordsController.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\WordsController.cs",
+              "RelativeToolTip": "BlazorApp1\\Controller\\WordsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:45:13.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FREController.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\FREController.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Controller\\FREController.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\FREController.cs",
-              "RelativeToolTip": "BlazorApp1\\Controller\\FREController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAQwHcAAAAAAAAAAAAAAA==",
+              "Title": "WordsService.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\WordsService.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Services\\WordsService.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\WordsService.cs",
+              "RelativeToolTip": "BlazorApp1\\Services\\WordsService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswDMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:56.94Z",
+              "WhenOpened": "2025-04-11T20:05:03.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FRE.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FRE.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Model\\FRE\\FRE.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FRE.cs",
-              "RelativeToolTip": "BlazorApp1\\Model\\FRE\\FRE.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Words.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Words.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Model\\Words.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Words.cs",
+              "RelativeToolTip": "BlazorApp1\\Model\\Words.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:12.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AnswerFre.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\AnswerFre.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Model\\AnswerFre.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\AnswerFre.cs",
-              "RelativeToolTip": "BlazorApp1\\Model\\AnswerFre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:24.678Z",
+              "WhenOpened": "2025-04-11T20:03:21.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TextToTranslate.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\TextToTranslate.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Model\\TextToTranslate.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\TextToTranslate.cs",
-              "RelativeToolTip": "BlazorApp1\\Model\\TextToTranslate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:26.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "FREHelper.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FREHelper.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Model\\FRE\\FREHelper.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FREHelper.cs",
-              "RelativeToolTip": "BlazorApp1\\Model\\FRE\\FREHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:16.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "AnswerFreApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Records\\AnswerFreApiResponse.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Records\\AnswerFreApiResponse.cs",
@@ -235,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\Program.cs",
@@ -248,46 +208,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CERFController.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\CERFController.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Controller\\CERFController.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\CERFController.cs",
-              "RelativeToolTip": "BlazorApp1\\Controller\\CERFController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:54.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "NavBar.razor",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Layout\\NavBar.razor",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\Layout\\NavBar.razor",
               "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Layout\\NavBar.razor",
               "RelativeToolTip": "BlazorApp1.Client\\Layout\\NavBar.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-10T18:09:11.58Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:33:17.243Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "app.css",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
-              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\app.css",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
-              "RelativeToolTip": "BlazorApp1\\wwwroot\\app.css",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-10T16:45:40.042Z",
+              "DocumentIndex": 9,
+              "Title": "TextRequestWithTraduction.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
+              "RelativeToolTip": "BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:31:21.751Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FREController.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\FREController.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Controller\\FREController.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Controller\\FREController.cs",
+              "RelativeToolTip": "BlazorApp1\\Controller\\FREController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:32:56.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FREService.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\FREService.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Services\\FREService.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\FREService.cs*",
+              "RelativeToolTip": "BlazorApp1\\Services\\FREService.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAxwAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:32:42.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FREHelper.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FREHelper.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Model\\FRE\\FREHelper.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FREHelper.cs",
+              "RelativeToolTip": "BlazorApp1\\Model\\FRE\\FREHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:31:16.336Z"
             },
             {
               "$type": "Document",
@@ -304,7 +298,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
+              "Title": "PracticeRandomPhrases.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
+              "RelativeDocumentMoniker": "BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
+              "RelativeToolTip": "BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAwwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T18:09:15.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "BlazorApp1\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:30:38.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AnswerFre.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\AnswerFre.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Model\\AnswerFre.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\AnswerFre.cs",
+              "RelativeToolTip": "BlazorApp1\\Model\\AnswerFre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:31:24.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FRE.cs",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FRE.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Model\\FRE\\FRE.cs",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\FRE\\FRE.cs",
+              "RelativeToolTip": "BlazorApp1\\Model\\FRE\\FRE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:31:12.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PracticeRandomWords.razor",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
+              "RelativeDocumentMoniker": "BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
+              "RelativeToolTip": "BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T15:58:03.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\wwwroot\\app.css",
+              "RelativeToolTip": "BlazorApp1\\wwwroot\\app.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-10T16:45:40.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "FreApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Records\\FreApiResponse.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Records\\FreApiResponse.cs",
@@ -316,19 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CERFService.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\CERFService.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Services\\CERFService.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\CERFService.cs",
-              "RelativeToolTip": "BlazorApp1\\Services\\CERFService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:37.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "RandomFreDTO.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\DTO\\RandomFreDTO.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\DTO\\RandomFreDTO.cs",
@@ -340,31 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FREService.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\FREService.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Services\\FREService.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Services\\FREService.cs",
-              "RelativeToolTip": "BlazorApp1\\Services\\FREService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAjwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:42.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Program.cs",
-              "RelativeToolTip": "BlazorApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:33:17.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorApp1\\appsettings.json",
@@ -376,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\Pages\\Home.razor",
@@ -388,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\_Imports.razor",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\_Imports.razor",
@@ -401,18 +436,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "CerfApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Records\\CerfApiResponse.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Records\\CerfApiResponse.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Records\\CerfApiResponse.cs",
-              "RelativeToolTip": "BlazorApp1\\Records\\CerfApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:22.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\Layout\\MainLayout.razor",
@@ -424,55 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AnswerCerfApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Records\\AnswerCerfApiResponse.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Records\\AnswerCerfApiResponse.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Records\\AnswerCerfApiResponse.cs",
-              "RelativeToolTip": "BlazorApp1\\Records\\AnswerCerfApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:08.096Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "CERF.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\CERF\\CERF.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Model\\CERF\\CERF.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\CERF\\CERF.cs",
-              "RelativeToolTip": "BlazorApp1\\Model\\CERF\\CERF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:02.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "BlazorApp1\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:30:38.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "TextRequestWithTraduction.cs",
-              "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
-              "RelativeDocumentMoniker": "BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
-              "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
-              "RelativeToolTip": "BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:21.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
               "Title": "TextRequest.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Model\\Requests\\TextRequest.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Model\\Requests\\TextRequest.cs",
@@ -484,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 26,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Routes.razor",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\Routes.razor",

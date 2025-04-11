@@ -1,5 +1,4 @@
 ﻿using English.Data;
-using English.Model.CERF;
 using English.Model.FRE;
 using English.Model.Requests;
 using Microsoft.EntityFrameworkCore;
