@@ -270,54 +270,6 @@
         }
       }
     },
-    "/api/FRE/GetFRE": {
-      "get": {
-        "tags": [
-          "FRE"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TextRequest"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TextRequest"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/TextRequest"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/FreApiResponse"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FreApiResponse"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FreApiResponse"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/FRE/GetFreByRanking/{Id}": {
       "get": {
         "tags": [
@@ -411,77 +363,6 @@
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "/api/FRE/GetFreById/{Id}": {
-      "get": {
-        "tags": [
-          "FRE"
-        ],
-        "parameters": [
-          {
-            "name": "Id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/FRE"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FRE"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/FRE"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/FRE/postfre": {
-      "post": {
-        "tags": [
-          "FRE"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TextRequestWithTraduction"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TextRequestWithTraduction"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/TextRequestWithTraduction"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
           }
         }
       }
@@ -668,32 +549,6 @@
         },
         "additionalProperties": false
       },
-      "FreApiResponse": {
-        "type": "object",
-        "properties": {
-          "wordsCount": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "sentenceCount": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "syllablesCount": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "fleschReadingEase": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "ranking": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
       "RandomFreDTO": {
         "type": "object",
         "properties": {
@@ -720,20 +575,6 @@
         "type": "object",
         "properties": {
           "text": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "TextRequestWithTraduction": {
-        "type": "object",
-        "properties": {
-          "text": {
-            "type": "string",
-            "nullable": true
-          },
-          "traduction": {
             "type": "string",
             "nullable": true
           }

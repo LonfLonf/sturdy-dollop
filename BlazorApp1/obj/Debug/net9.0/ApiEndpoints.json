@@ -162,58 +162,6 @@
   },
   {
     "ContainingType": "English.Controller.FREController",
-    "Method": "GetFREResponse",
-    "RelativePath": "api/FRE/GetFRE",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "English.Model.Requests.TextRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "English.Records.FreApiResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "English.Controller.FREController",
-    "Method": "GetFreById",
-    "RelativePath": "api/FRE/GetFreById/{Id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "English.Model.FRE.FRE",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "English.Controller.FREController",
     "Method": "GetAllFreByRanking",
     "RelativePath": "api/FRE/GetFreByRanking/{Id}",
     "HttpMethod": "GET",
@@ -294,21 +242,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "English.Controller.FREController",
-    "Method": "PostFRE",
-    "RelativePath": "api/FRE/postfre",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "English.Model.Requests.TextRequestWithTraduction",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
   }
 ]

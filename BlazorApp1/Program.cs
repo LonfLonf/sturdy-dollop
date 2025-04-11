@@ -30,15 +30,6 @@ var app = builder.Build();
 
 app.MapControllers();
 
-// Used for Populate the Database
-/* 
-using (var scope = app.Services.CreateScope())
-{
-    var service = scope.ServiceProvider.GetRequiredService<CERFService>();
-    await service.putEverythingInDatabase();
-}
-*/
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
