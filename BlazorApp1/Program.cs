@@ -1,5 +1,6 @@
 using BlazorApp1.Client.Pages;
 using BlazorApp1.Components;
+using BlazorApp1.Services;
 using English.Data;
 using English.Services;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddTransient<CERFService>();
+builder.Services.AddTransient<WordsService>();
 builder.Services.AddScoped<FREService>();
 
 // Add services to the container.
