@@ -52,9 +52,7 @@
 
     public async Task NextButton_Click()
     {
-        colorText = "White";
-        visibiliTyOfTraduction = "hidden";
-        TraductionAnswer = string.Empty;
+        DefaultTextConfigs();
 
         using HttpResponseMessage responseMessage = await httpClient.GetAsync(uri + "GetRandomFreByRanking/" + Convert.ToInt16(selectedValue));
 
@@ -122,6 +120,14 @@
                 TraductionAnswer = freDTO.Traduction;
             }
         }
+    }
+
+    public void DefaultTextConfigs()
+    {
+        colorText = "White";
+        visibiliTyOfTraduction = "hidden";
+        TraductionAnswer = string.Empty;
+        answerText = string.Empty;
     }
 
     public void ShowMessage(string Message, string Color)

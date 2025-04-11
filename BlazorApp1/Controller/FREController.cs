@@ -20,6 +20,7 @@ namespace English.Controller
             this.FREService = FREService;
         }
 
+        /*
         [HttpGet("GetFRE")]
         public async Task<ActionResult<FreApiResponse>> GetFREResponse([FromBody] TextRequest request)
         {
@@ -34,6 +35,7 @@ namespace English.Controller
 
             return new FreApiResponse(freHelper.WordsCount, freHelper.SentenceCount, freHelper.SyllablesCount, freHelper.FleschReadingEaseFormula(), freHelper.RankingDifficulty(valueOfFre));
         }
+        */
 
         [HttpGet("GetFreByRanking/{Id}")]
         public async Task<ActionResult<List<FRE>>> GetAllFreByRanking([FromRoute] int Ranking)
@@ -61,6 +63,8 @@ namespace English.Controller
             return Ok(new RandomFreDTO(response.Id, response.Text, response.Traduction, response.Ranking));
         }
 
+        
+        /*
         [HttpGet("GetFreById/{Id}")]
         public async Task<ActionResult<FRE>> GetFreById(int Id)
         {
@@ -73,7 +77,7 @@ namespace English.Controller
 
             return Ok(response);
         }
-
+        */
 
         // Use to populate Database
         /*
@@ -99,7 +103,7 @@ namespace English.Controller
         }
         */
 
-
+        /*
         [HttpPost("postfre")]
         public async Task<ActionResult> PostFRE([FromBody] TextRequestWithTraduction request)
         {
@@ -112,6 +116,7 @@ namespace English.Controller
 
             return Ok();    
         }
+        */
 
         [HttpPost("postanswer")]
         public async Task<ActionResult<AnswerFreApiResponse>> PostAnswer([FromBody] AnswerFre Answer)
