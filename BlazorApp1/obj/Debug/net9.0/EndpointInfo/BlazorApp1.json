@@ -553,8 +553,9 @@
             "type": "string",
             "nullable": true
           },
-          "fre": {
-            "$ref": "#/components/schemas/FRE"
+          "idFre": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -696,6 +697,10 @@
       "RandomFreDTO": {
         "type": "object",
         "properties": {
+          "idFre": {
+            "type": "integer",
+            "format": "int32"
+          },
           "text": {
             "type": "string",
             "nullable": true

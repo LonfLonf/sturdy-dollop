@@ -9,7 +9,7 @@
     <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
         <div class="d-flex flex-column align-items-center" style="gap: 8rem;">
 
-            <div class="textQuestion">
+            <div class="textQuestion" style="color:@colorText">
                 @textDefault
             </div>
 
@@ -25,10 +25,11 @@
             </select>
 
             <input @bind="answerText" class="textQuestion" placeholder=" Put Something" />
+            <p class="traductionText" style="visibility:@visibiliTyOfTraduction">@TraductionAnswer</p>
 
             <div class="d-flex gap-3">
                 <button type="button" class="btn btn-outline-secondary" @onclick="NextButton_Click">Next</button>
-                <button type="button" class="btn btn-outline-secondary">Submit</button>
+                <button type="button" class="btn btn-outline-secondary" @onclick="SubmitButton_Click">Submit</button>
             </div>
 
         </div>
@@ -39,6 +40,9 @@
     public string selectedValue;
     public string textDefault = "Choose a level and click Next to start.";
     public string answerText;
+    public string colorText = "White";
+    public string visibiliTyOfTraduction = "hidden";
+    public string TraductionAnswer = string.Empty;
 
     public HttpClient httpClient = new HttpClient();
 
@@ -48,6 +52,8 @@
 
     public async Task NextButton_Click()
     {
+        colorText = "White";
+
         using HttpResponseMessage responseMessage = await httpClient.GetAsync(uri + "GetRandomFreByRanking/" + Convert.ToInt16(selectedValue));
 
         if (responseMessage.IsSuccessStatusCode)
@@ -66,10 +72,84 @@
         }
     }
 
+    private async Task SubmitButton_Click()
+    {
+
+        if (string.IsNullOrEmpty(answerText))
+        {
+            ShowMessage("Put an answer before clicking Submit - To continue, click Next", "Red");
+            return;
+        }
+
+        if (freDTO.idFre == 0 || freDTO == null)
+        {
+            ShowMessage("Chose a Level for Phrases - To continue, click Next", "Red");
+            return;
+        }
+
+        AnswerFre answerFre = new AnswerFre();
+
+        answerFre.IdFre = freDTO.idFre;
+
+        answerFre.Text = answerText;
+
+        string Json = JsonConvert.SerializeObject(answerFre);
+
+        var content = new StringContent(Json, System.Text.Encoding.UTF8, "application/json");
+
+        using HttpResponseMessage responseMessage = await httpClient.PostAsync(uri + "postanswer", content);
+
+        if (responseMessage.IsSuccessStatusCode)
+        {
+            var responseOfPost = await responseMessage.Content.ReadFromJsonAsync<AnswerFreApiResponse>();
+
+            if (responseOfPost.Correctness == Correctness.Perfectly)
+            {
+                colorText = "Green";
+            }
+            else if (responseOfPost.Correctness ==  Correctness.SomethingIsMissing)
+            {
+                colorText = "Orange";
+                visibiliTyOfTraduction = "visible";
+                TraductionAnswer = freDTO.Traduction;
+            }
+            else if (responseOfPost.Correctness == Correctness.Wrong)
+            {
+                colorText = "Red";
+                visibiliTyOfTraduction = "visible";
+                TraductionAnswer = freDTO.Traduction;
+            }
+        }
+    }
+
+    public void ShowMessage(string Message, string Color)
+    {
+        colorText = Color;
+        textDefault = Message;
+    }
+
     class FreDTO
     {
-        public int Id { get; set; }
+        
+        public int idFre { get; set; }
         public string Text { get; set; }
         public string Traduction { get; set; }
+    }
+
+    class AnswerFre
+    {
+        public string Text { get; set; }
+        public int IdFre { get; set; }
+    }
+
+    public record AnswerFreApiResponse(int statusCode, string Message, Correctness Correctness)
+    {
+    }
+
+    public enum Correctness
+    {
+        Perfectly = 1,
+        SomethingIsMissing = 2,
+        Wrong = 3
     }
 }

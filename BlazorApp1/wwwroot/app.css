@@ -101,3 +101,8 @@ h1:focus {
     text-align: center;
     width: 150px;
 }
+
+.traductionText {
+    transform: translateY(-70px);
+    font-size: 22px;
+}
