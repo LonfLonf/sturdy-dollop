@@ -2,7 +2,7 @@
 @using Newtonsoft.Json
 
 <header>
-    <English.Client.Layout.NavBar></English.Client.Layout.NavBar>
+    <BlazorApp1.Client.Layout.NavBar></BlazorApp1.Client.Layout.NavBar>
 </header>
 
 <main class="container-fluid">
@@ -13,19 +13,24 @@
                 @textDefault
             </div>
 
-            <select @bind="selectedValue" name="Ranking Phrases" id="cars" class="dropRanking">
-                <option value="" disabled selected>Select a Level of Phrase</option>
-                <option value="0">Stupid Easy</option>
+            <select @bind="selectedValue" name="Ranking Words" id="cars" class="dropRanking">
+                <option value="" disabled selected>Select a Count of Words</option>
                 <option value="1">Easy</option>
                 <option value="2">Reasonably easy</option>
                 <option value="3">Normal</option>
                 <option value="4">Reasonably Hard</option>
                 <option value="5">Hard</option>
-                <option value="6">Really Hard</option>
             </select>
 
             <input @bind="answerText" class="textQuestion" placeholder=" Put Something" />
-            <p class="traductionText" style="visibility:@visibiliTyOfTraduction">@TraductionAnswer</p>
+
+            <div class="traductionText" style="visibility:@visibiliTyOfTraduction">
+                @for (int i = 0; i < CorrectOrFalse?.Length; i++)
+                {
+                    var color = CorrectOrFalse[i] ? "green" : "red";
+                    <span style="color:@color; margin-right: 8px;">@TraductionAnswer[i]</span>
+                }
+            </div>
 
             <div class="d-flex gap-3">
                 <button type="button" class="btn btn-outline-secondary" @onclick="NextButton_Click">Next</button>
@@ -42,35 +47,38 @@
     public string answerText;
     public string colorText = "White";
     public string visibiliTyOfTraduction = "hidden";
-    public string TraductionAnswer = string.Empty;
+    public string[] TraductionAnswer;
 
     public HttpClient httpClient = new HttpClient();
 
-    Uri uri = new Uri("https://localhost:7153/api/FRE/");
+    Uri uri = new Uri("https://localhost:7153/api/Words/");
 
-    FreDTO freDTO;
+    bool[] CorrectOrFalse;
+    Words[] words;
 
     public async Task NextButton_Click()
     {
         DefaultTextConfigs();
 
-        using HttpResponseMessage responseMessage = await httpClient.GetAsync(uri + "GetRandomFreByRanking/" + Convert.ToInt16(selectedValue));
+        using HttpResponseMessage responseMessage = await httpClient.GetAsync($"{uri}{selectedValue}");
 
         if (responseMessage.IsSuccessStatusCode)
         {
             string content = await responseMessage.Content.ReadAsStringAsync();
 
-            freDTO = JsonConvert.DeserializeObject<FreDTO>(content);
+            words = JsonConvert.DeserializeObject<Words[]>(content);
 
-            if (freDTO == null)
+            if (words == null)
             {
                 textDefault = "Click in Next Again - ERROR";
                 return;
             }
 
-            textDefault = freDTO.Text;
+            textDefault = string.Join(" ", words.Select(w => w.EnglishWord));
+            TraductionAnswer = words.Select(w => w.PortugueseTranslation).ToArray();
         }
     }
+
 
     private async Task SubmitButton_Click()
     {
@@ -81,43 +89,42 @@
             return;
         }
 
-        if (freDTO.idFre == 0 || freDTO == null)
+        if (selectedValue == "0" || selectedValue == null)
         {
             ShowMessage("Chose a Level for Phrases - To continue, click Next", "Red");
             return;
         }
 
-        AnswerFre answerFre = new AnswerFre();
+        WordsRequest wordsRequest = new WordsRequest();
 
-        answerFre.IdFre = freDTO.idFre;
+        wordsRequest.Words = words;
+        wordsRequest.Answers = answerText.Split(' ');
 
-        answerFre.Text = answerText;
-
-        string Json = JsonConvert.SerializeObject(answerFre);
+        string Json = JsonConvert.SerializeObject(wordsRequest);
 
         var content = new StringContent(Json, System.Text.Encoding.UTF8, "application/json");
 
-        using HttpResponseMessage responseMessage = await httpClient.PostAsync(uri + "postanswer", content);
+        using HttpResponseMessage responseMessage = await httpClient.PostAsync(uri, content);
 
         if (responseMessage.IsSuccessStatusCode)
         {
-            var responseOfPost = await responseMessage.Content.ReadFromJsonAsync<AnswerFreApiResponse>();
+            CorrectOrFalse = await responseMessage.Content.ReadFromJsonAsync<bool[]>();
 
-            if (responseOfPost.Correctness == Correctness.Perfectly)
+            int CorrectQuestions = CorrectOrFalse.Count(x => x == true);
+
+            if (CorrectQuestions == CorrectOrFalse.Length)
             {
                 colorText = "Green";
-            }
-            else if (responseOfPost.Correctness ==  Correctness.SomethingIsMissing)
+            } 
+            else if (CorrectQuestions >= 2 && CorrectQuestions <= 4)
             {
                 colorText = "Orange";
                 visibiliTyOfTraduction = "visible";
-                TraductionAnswer = freDTO.Traduction;
             }
-            else if (responseOfPost.Correctness == Correctness.Wrong)
+            else
             {
                 colorText = "Red";
                 visibiliTyOfTraduction = "visible";
-                TraductionAnswer = freDTO.Traduction;
             }
         }
     }
@@ -126,7 +133,6 @@
     {
         colorText = "White";
         visibiliTyOfTraduction = "hidden";
-        TraductionAnswer = string.Empty;
         answerText = string.Empty;
     }
 
@@ -136,28 +142,16 @@
         textDefault = Message;
     }
 
-    class FreDTO
+    class Words
     {
-        
-        public int idFre { get; set; }
-        public string Text { get; set; }
-        public string Traduction { get; set; }
+        public int Id { get; set; }
+        public string EnglishWord { get; set; }
+        public string PortugueseTranslation { get; set; }
     }
 
-    class AnswerFre
+    class WordsRequest
     {
-        public string Text { get; set; }
-        public int IdFre { get; set; }
-    }
-
-    public record AnswerFreApiResponse(int statusCode, string Message, Correctness Correctness)
-    {
-    }
-
-    public enum Correctness
-    {
-        Perfectly = 1,
-        SomethingIsMissing = 2,
-        Wrong = 3
+        public Words[] Words { get; set; }
+        public string[] Answers { get; set; }
     }
 }

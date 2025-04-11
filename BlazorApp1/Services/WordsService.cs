@@ -60,7 +60,7 @@ namespace BlazorApp1.Services
 
             for (int i = 0; i < wordsQuestions.Length; i++)
             {
-                if (wordsQuestions[i].PortugueseTranslation.Equals(wordsAnswer[i].ToLower()))
+                if (wordsQuestions[i].PortugueseTranslation.Trim().Equals(wordsAnswer[i].ToLower().Trim()))
                 {
                     response[i] = true;
                 }
