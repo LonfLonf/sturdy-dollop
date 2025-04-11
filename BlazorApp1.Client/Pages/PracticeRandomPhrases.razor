@@ -53,6 +53,8 @@
     public async Task NextButton_Click()
     {
         colorText = "White";
+        visibiliTyOfTraduction = "hidden";
+        TraductionAnswer = string.Empty;
 
         using HttpResponseMessage responseMessage = await httpClient.GetAsync(uri + "GetRandomFreByRanking/" + Convert.ToInt16(selectedValue));
 
