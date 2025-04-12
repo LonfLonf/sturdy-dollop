@@ -31,3 +31,6 @@ Agora que fui ver que tive meu primeiro Leak de informação, estou me sentindo 
 4:33AM -> Mentira que falei, acabei resolvendo porque deu problema no banco de dados, deu algum problema na credencial e não conectava de jeito nenhum :)
 
 4:55AM -> Tem algumas coisas que não estão me agradando como o delay que está tendo, to pensando em dividir o banco e ir carregando com o tempo e deixar em cache, igual está na parte de palavras! Vou procurar outras soluções para isso
+
+11:38 -> Por obra do destino, as variaveis de ambiente cairam novamente quando dei push para ca, realmente não sei porque disso está acontecendo, vou resetar novamente as credentials mais tarde, adicionar o gitignore e ver mais o que posso fazer
+para não fazer mais essa cagada, poderia trocar agora? Infelizmente só vou ter tempo de escrever e sair de casa, então por hoje vamos ver se isso vai explodir ou alguem vai ler isso e hackear a nada com a credencial do banco de dados
