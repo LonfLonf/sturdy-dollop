@@ -128,7 +128,7 @@ namespace English.Controller
             }
 
             string freRequestTextTraduction = Fre.RemoveAccents(Fre.RemoveSymbols(Fre.Traduction)).ToLower().Trim();
-            string AnswerWithoutSymbols = Fre.RemoveAccents(Fre.RemoveSymbols(Fre.Traduction)).ToLower().Trim();
+            string AnswerWithoutSymbols = Fre.RemoveAccents(Fre.RemoveSymbols(Answer.Text)).ToLower().Trim();
 
             if (freRequestTextTraduction.Equals(AnswerWithoutSymbols))
             {

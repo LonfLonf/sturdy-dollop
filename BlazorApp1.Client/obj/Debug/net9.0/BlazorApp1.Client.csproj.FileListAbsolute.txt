@@ -1035,10 +1035,10 @@ C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\L
 C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\d5kajyu9o2-3c4wvb350q.gz
 C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\p4zy9gs9k1-cymp1amu5g.gz
 C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\k3hluo923z-4b0q7hpvp2.gz
-C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.lzinst0ixp.pdb
-C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.jah5p9yyjw.wasm
-C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.lzinst0ixp.pdb.gz
-C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.jah5p9yyjw.wasm.gz
-C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\ze2qwtpi57-jah5p9yyjw.gz
-C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\rud6kqy1tt-lzinst0ixp.gz
-C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\o99o0iv4dq-9xoger0do8.gz
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.83immq4y6g.pdb
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.lnp23mbtxf.wasm
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.83immq4y6g.pdb.gz
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\bin\Debug\net9.0\wwwroot\_framework\BlazorApp1.Client.lnp23mbtxf.wasm.gz
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\ze2qwtpi57-lnp23mbtxf.gz
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\rud6kqy1tt-83immq4y6g.gz
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\compressed\o99o0iv4dq-xnc0z5dk8l.gz

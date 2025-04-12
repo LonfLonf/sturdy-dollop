@@ -13,7 +13,7 @@ var connectionString =
         + "'DefaultConnection' not found.");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(connectionString));
+    options.UseNpgsql(connectionString));
 
 builder.Services.AddControllers();
 

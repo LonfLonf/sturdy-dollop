@@ -1,7 +1,7 @@
 ﻿@page "/PracticeRandomWords"
 @using Newtonsoft.Json
 
-<header>
+<header class="bg-dark">
     <BlazorApp1.Client.Layout.NavBar></BlazorApp1.Client.Layout.NavBar>
 </header>
 
@@ -41,6 +41,21 @@
     </div>
 </main>
 
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-2">© 2025 - Yuri de Oliveira. All rights reserved.</p>
+
+        <div class="d-flex justify-content-center gap-4">
+            <a href="https://github.com/LonfLonf/sturdy-dollop" target="_blank" class="text-white fs-4">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yuri-oliveiras/" target="_blank" class="text-white fs-4">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
 @code {
     public string selectedValue;
     public string textDefault = "Choose a level and click Next to start.";
@@ -51,7 +66,7 @@
 
     public HttpClient httpClient = new HttpClient();
 
-    Uri uri = new Uri("https://localhost:7153/api/Words/");
+    Uri uri = new Uri("https://lonftaka-gbg2g5hca8b2h2b0.brazilsouth-01.azurewebsites.net/api/Words//");
 
     bool[] CorrectOrFalse;
     Words[] words;

@@ -2,32 +2,69 @@
 
 <PageTitle>Home</PageTitle>
 
-<header>
+<header class="bg-dark">
         <BlazorApp1.Client.Layout.NavBar></BlazorApp1.Client.Layout.NavBar>
 </header>
 
+<main style="user-select: none;">
+    <div class="container py-5">
 
-<main>
-    <h1>Hello, world!</h1>
+        <!-- Section 1: PracticeRandomPhrases -->
+        <div class="mb-5 text-center">
+            <h1 class="display-4">Practice Random Phrases</h1>
+            <p class="lead">
+                This section allows you to practice random phrases to improve your English comprehension and writing skills.
+                Watch the video below to get started.
+                Don’t forget to choose the difficulty and then click Next.
+                When you see these colors:
+            </p>
+            <p style="color: green"><span>Correct Question</span></p>
+            <p style="color: orange"><span>Probably the question is correct but something is missing!</span></p>
+            <p style="color: red"><span>Wrong Question</span></p>
+            <div class="ratio ratio-16x9 mt-3" style="user-select: all;">
+                <iframe src="https://www.youtube.com/embed/SD2JYCxpk8Q?si=6ZrCiDM65gGQ_Fa2"
+                        title="Practice Random Phrases Video"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
 
-    Welcome to your new app.
+        <!-- Section 2: PracticeWordsPhrases -->
+        <div class="mb-5 text-center">
+            <h1 class="display-4">Practice Words Phrases</h1>
+            <p class="lead">
+                Here you can practice vocabulary and phrases together. Strengthen your ability to form sentences and understand context.
+                Don't forget put the Difficulty and after click and next
+                The first time you click Next, it may take a few seconds to show a question.
+                When you see this colors in Question or in Traduction:
+            </p>
+            <p style="color: green"><span>Correct Question</span></p>
+            <p style="color: orange"><span>Probably the question is correct but something is missing!</span></p>
+            <p style="color: red"><span>Wrong Question</span></p>
+            <div class="ratio ratio-16x9 mt-3" style="user-select: all;">
+                <iframe src="https://www.youtube.com/embed/Bwqjy6CMED4?si=Lm6gjHzJgTow8b2K"
+                        title="Practice Words Video Instructions"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
 
-
-    <div class="textEnglish">
-        Fodase
-    </div>
-
-    <br />
-
-    <div class="textEnglish">
-        <input class="textInput" placeholder="Coloca a resposta Aqui" />
-    </div>
-
-    <br />
-
-    <div>
-        <button>Submit</button>
-        <button>Cancel</button>
     </div>
 </main>
+
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <p class="mb-2">© 2025 - Yuri de Oliveira. All rights reserved.</p>
+
+        <div class="d-flex justify-content-center gap-4">
+            <a href="https://github.com/LonfLonf/sturdy-dollop" target="_blank" class="text-white fs-4">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yuri-oliveiras/" target="_blank" class="text-white fs-4">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
 

@@ -106,3 +106,7 @@ h1:focus {
     transform: translateY(-70px);
     font-size: 22px;
 }
+
+.textF {
+    color:white;
+}
