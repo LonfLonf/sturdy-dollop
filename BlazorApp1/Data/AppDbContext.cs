@@ -9,5 +9,11 @@ namespace English.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { } 
         public DbSet<FRE> FREs { get; set; }
         public DbSet<Words> Words { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<FRE>().ToTable("fres");
+            modelBuilder.Entity<Words>().ToTable("words");
+        }
     }
 }
