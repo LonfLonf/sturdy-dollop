@@ -24,8 +24,10 @@ Inicialmente, minha ideia era desenvolver um sistema de sincronização de letra
 
 A jornada foi cheia de desafios, especialmente na configuração do banco de dados e no deploy. Para manter o projeto funcionando sem custos, precisei improvisar algumas soluções. Apesar das dificuldades, essa experiência me ensinou muito sobre desenvolvimento, otimização e resolução de problemas no ambiente de produção.
 
-# Leak
+# Notações Aleatorias
 
 Agora que fui ver que tive meu primeiro Leak de informação, estou me sentindo um completo de um idiota, mas mesmo assim vou deixar ali e ver no que isso pode me causar, se for algo de pessimo eu resolvo.
 
 4:33AM -> Mentira que falei, acabei resolvendo porque deu problema no banco de dados, deu algum problema na credencial e não conectava de jeito nenhum :)
+
+4:55AM -> Tem algumas coisas que não estão me agradando como o delay que está tendo, to pensando em dividir o banco e ir carregando com o tempo e deixar em cache, igual está na parte de palavras! Vou procurar outras soluções para isso
