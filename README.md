@@ -23,3 +23,7 @@ Este projeto tomou rumos que eu nunca imaginei no início. O que começou como a
 Inicialmente, minha ideia era desenvolver um sistema de sincronização de letras de músicas em tempo real. Após pesquisar várias APIs sem encontrar nenhuma que atendesse às minhas necessidades, mudei de abordagem e comecei a trabalhar com um CSV contendo palavras em inglês, organizadas do nível mais fácil ao mais difícil. Com o tempo, decidi expandir o projeto para incluir frases que desafiam o usuário a adivinhar o significado, e esse tem sido o foco desde então.
 
 A jornada foi cheia de desafios, especialmente na configuração do banco de dados e no deploy. Para manter o projeto funcionando sem custos, precisei improvisar algumas soluções. Apesar das dificuldades, essa experiência me ensinou muito sobre desenvolvimento, otimização e resolução de problemas no ambiente de produção.
+
+# Leak
+
+Agora que fui ver que tive meu primeiro Leak de informação, estou me sentindo um completo de um idiota, mas mesmo assim vou deixar ali e ver no que isso pode me causar, se for algo de pessimo eu resolvo.
