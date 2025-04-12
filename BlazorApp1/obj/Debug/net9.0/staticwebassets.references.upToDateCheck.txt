@@ -40,3 +40,4 @@ C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\L
 C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\firey\Desktop\litteThings\LittleLittleThings\LittleLittleLittleThings\LittleQuiz\BlazorApp1\BlazorApp1.Client\obj\Debug\net9.0\staticwebassets.build.json
