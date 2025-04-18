@@ -24,6 +24,17 @@ Inicialmente, minha ideia era desenvolver um sistema de sincronização de letra
 
 A jornada foi cheia de desafios, especialmente na configuração do banco de dados e no deploy. Para manter o projeto funcionando sem custos, precisei improvisar algumas soluções. Apesar das dificuldades, essa experiência me ensinou muito sobre desenvolvimento, otimização e resolução de problemas no ambiente de produção.
 
-# Leak
+Com esse projeto acabei descobrindo algumas coisas que funcionam mas não são perfomaticas demais, um dos casos é que cada clique tem que fazer uma nova consulta e vamos supor que se não flopasse, eu do futuro teria um problema de escabilidade bem grande, como eu disse na parte de notações aleatorias, tenho algumas sugestões de como resolver agora e para ser sincero eu não sabia que uma aplicação tão pequena igual essa poderia ter tantos aspectos que fazem a diferença então os aprendizados de hoje foram: LEMBRA DE USAR GITIGNORE, NAO VAZER OS DADOS DO BANCO KKKKK, Vc não precisa fazer 20 mil consultas no banco de dados para fazer algo simples, as vezes carregar um pouco em cache e pegar as informações dessa região da memoria seria mais perfomatico. Sei que são areas diferentes mas lembro de cache quando estou mexendo com malware e sempre tem alguma coisa de "cache" no ar, hoje eu entendi porque é tão importante
+
+# Notações Aleatorias
 
 Agora que fui ver que tive meu primeiro Leak de informação, estou me sentindo um completo de um idiota, mas mesmo assim vou deixar ali e ver no que isso pode me causar, se for algo de pessimo eu resolvo.
+
+4:33AM -> Mentira que falei, acabei resolvendo porque deu problema no banco de dados, deu algum problema na credencial e não conectava de jeito nenhum :)
+
+4:55AM -> Tem algumas coisas que não estão me agradando como o delay que está tendo, to pensando em dividir o banco e ir carregando com o tempo e deixar em cache, igual está na parte de palavras! Vou procurar outras soluções para isso
+
+11:38AM -> Por obra do destino, as variaveis de ambiente cairam novamente quando dei push para ca, realmente não sei porque disso está acontecendo, vou resetar novamente as credentials mais tarde, adicionar o gitignore e ver mais o que posso fazer
+para não fazer mais essa cagada, poderia trocar agora? Infelizmente só vou ter tempo de escrever e sair de casa, então por hoje vamos ver se isso vai explodir ou alguem vai ler isso e hackear a nada com a credencial do banco de dados
+
+03:04 -> Teve poucas resquests no site, foi um verdadeiro floop digno de chorar, mas pelo menos aprendi algumas coisas de segurança e como evitar certas coisas, outra coisa que vou procurar melhorar vai ser na questão do desempenho do site mesmo e na rapidez, pensando por cima tenho alguma coisas que posso fazer: Usuario assim que entrar no site ele ja faz a query do SQL e deixa em cache, assim aumentando o consumo de memoria mas melhorando a entrega e a experiencia do usuario, posso ver como funciona os clusters de banco de dados e como isso pode melhorar, de junto posso ver ate o redis acho que talvez me ajude com meu problema de demora de entrega.
