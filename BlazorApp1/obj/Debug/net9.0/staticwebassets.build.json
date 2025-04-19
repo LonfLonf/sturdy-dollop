@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Tf59Kg9NE60Lc8+X/U8em3XJD3RygjbRv6hOBEJvTxU=",
+  "Hash": "tVX+AGHx9UsPSMAQ04VDyHznDN6utZWXJOtFNrMpieU=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -50,8 +50,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "s54ntageab",
-      "Integrity": "MGYfhV3RFwKvFC8QKCvDPDn329hXFJWnksqfMCLXd08=",
+      "Fingerprint": "ga1qnjruf2",
+      "Integrity": "+KN8yrEMeKSqWnqYvaHF0HcgS3MLm8ewf5AoYQaNo58=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -92,8 +92,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "zua5wujkqd",
-      "Integrity": "O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY=",
+      "Fingerprint": "6daq215qvg",
+      "Integrity": "+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.pdb"
@@ -113,8 +113,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "y61aa6h16f",
-      "Integrity": "dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk=",
+      "Fingerprint": "s9a3phv2cg",
+      "Integrity": "wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.wasm"
@@ -7302,7 +7302,7 @@
       "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o7jhz6558r-790ssxljcz.gz"
     },
     {
-      "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-s54ntageab.gz",
+      "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-ga1qnjruf2.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\",
@@ -7316,11 +7316,11 @@
       "RelatedAsset": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "v3419fkz06",
-      "Integrity": "CxC/fD2/2ApO8azUeJb4Jle89rojtu077xhhjm8nL9k=",
+      "Fingerprint": "seu068ua3a",
+      "Integrity": "9N9cd9XkB3NiRE5VrQ/1jKcnO6NqwoZv9GN9igPgKio=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-s54ntageab.gz"
+      "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-ga1qnjruf2.gz"
     },
     {
       "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\oqqg3hvhln-mrms2eewly.gz",
@@ -7827,12 +7827,12 @@
       "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rrpmjh1ymq-1er4s7iwhi.gz"
     },
     {
-      "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-zua5wujkqd.gz",
+      "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-6daq215qvg.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazorApp1.Client#[.{fingerprint=zua5wujkqd}]!.pdb.gz",
+      "RelativePath": "_framework/BlazorApp1.Client#[.{fingerprint=6daq215qvg}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7841,11 +7841,11 @@
       "RelatedAsset": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jw24fr8aau",
-      "Integrity": "s6LL8pPYjtEr2SWzhiSp2CP+g1tE+1BcvmVc09z1NyM=",
+      "Fingerprint": "qcchpt735h",
+      "Integrity": "ytXuOfhMS8hkoqHUoq/J3MfeUNFGWh/pH5NAdABVatA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-zua5wujkqd.gz"
+      "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-6daq215qvg.gz"
     },
     {
       "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\s081ns132m-zkzeaq78be.gz",
@@ -8604,12 +8604,12 @@
       "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\z3uusckqze-0slem1275q.gz"
     },
     {
-      "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-y61aa6h16f.gz",
+      "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-s9a3phv2cg.gz",
       "SourceId": "BlazorApp1.Client",
       "SourceType": "Project",
       "ContentRoot": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/BlazorApp1.Client#[.{fingerprint=y61aa6h16f}]!.wasm.gz",
+      "RelativePath": "_framework/BlazorApp1.Client#[.{fingerprint=s9a3phv2cg}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8618,11 +8618,11 @@
       "RelatedAsset": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "moeiqtevyu",
-      "Integrity": "Klft/61Oq93dUre65cLz/mgJjzsL8CFvUtapdYPkEz0=",
+      "Fingerprint": "vmluv5vfz2",
+      "Integrity": "Bywpx/jNEJxv+RguZPikLdKAAtL+Q6JPW1E2yNrr+Jo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-y61aa6h16f.gz"
+      "OriginalItemSpec": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-s9a3phv2cg.gz"
     },
     {
       "Identity": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\zk30yn89n8-xqt090n7fe.gz",
@@ -10749,28 +10749,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MGYfhV3RFwKvFC8QKCvDPDn329hXFJWnksqfMCLXd08=\""
+          "Value": "\"+KN8yrEMeKSqWnqYvaHF0HcgS3MLm8ewf5AoYQaNo58=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MGYfhV3RFwKvFC8QKCvDPDn329hXFJWnksqfMCLXd08="
+          "Value": "sha256-+KN8yrEMeKSqWnqYvaHF0HcgS3MLm8ewf5AoYQaNo58="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-s54ntageab.gz",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-ga1qnjruf2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080231065"
+          "Quality": "0.000080547725"
         }
       ],
       "ResponseHeaders": [
@@ -10788,15 +10788,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12463"
+          "Value": "12414"
         },
         {
           "Name": "ETag",
-          "Value": "\"CxC/fD2/2ApO8azUeJb4Jle89rojtu077xhhjm8nL9k=\""
+          "Value": "\"9N9cd9XkB3NiRE5VrQ/1jKcnO6NqwoZv9GN9igPgKio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 07:24:57 GMT"
+          "Value": "Sat, 19 Apr 2025 02:01:26 GMT"
         },
         {
           "Name": "Vary",
@@ -10808,19 +10808,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"MGYfhV3RFwKvFC8QKCvDPDn329hXFJWnksqfMCLXd08=\""
+          "Value": "W/\"+KN8yrEMeKSqWnqYvaHF0HcgS3MLm8ewf5AoYQaNo58=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MGYfhV3RFwKvFC8QKCvDPDn329hXFJWnksqfMCLXd08="
+          "Value": "sha256-+KN8yrEMeKSqWnqYvaHF0HcgS3MLm8ewf5AoYQaNo58="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-s54ntageab.gz",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\o99o0iv4dq-ga1qnjruf2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10837,7 +10837,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12463"
+          "Value": "12414"
         },
         {
           "Name": "Content-Type",
@@ -10845,11 +10845,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CxC/fD2/2ApO8azUeJb4Jle89rojtu077xhhjm8nL9k=\""
+          "Value": "\"9N9cd9XkB3NiRE5VrQ/1jKcnO6NqwoZv9GN9igPgKio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 07:24:57 GMT"
+          "Value": "Sat, 19 Apr 2025 02:01:26 GMT"
         },
         {
           "Name": "Vary",
@@ -10859,7 +10859,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CxC/fD2/2ApO8azUeJb4Jle89rojtu077xhhjm8nL9k="
+          "Value": "sha256-9N9cd9XkB3NiRE5VrQ/1jKcnO6NqwoZv9GN9igPgKio="
         }
       ]
     },
@@ -11001,6 +11001,167 @@
       ]
     },
     {
+      "Route": "_framework/BlazorApp1.Client.6daq215qvg.pdb",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 02:17:44 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6daq215qvg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorApp1.Client.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorApp1.Client.6daq215qvg.pdb",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-6daq215qvg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000045481421"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21986"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ytXuOfhMS8hkoqHUoq/J3MfeUNFGWh/pH5NAdABVatA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6daq215qvg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorApp1.Client.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BlazorApp1.Client.6daq215qvg.pdb.gz",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-6daq215qvg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21986"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ytXuOfhMS8hkoqHUoq/J3MfeUNFGWh/pH5NAdABVatA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6daq215qvg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ytXuOfhMS8hkoqHUoq/J3MfeUNFGWh/pH5NAdABVatA="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BlazorApp1.Client.pdb.gz"
+        }
+      ]
+    },
+    {
       "Route": "_framework/BlazorApp1.Client.pdb",
       "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.pdb",
       "Selectors": [],
@@ -11015,7 +11176,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "29776"
+          "Value": "29832"
         },
         {
           "Name": "Content-Type",
@@ -11023,28 +11184,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY=\""
+          "Value": "\"+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:45 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY="
+          "Value": "sha256-+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp1.Client.pdb",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-zua5wujkqd.gz",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-6daq215qvg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000045733102"
+          "Quality": "0.000045481421"
         }
       ],
       "ResponseHeaders": [
@@ -11062,15 +11223,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21865"
+          "Value": "21986"
         },
         {
           "Name": "ETag",
-          "Value": "\"s6LL8pPYjtEr2SWzhiSp2CP+g1tE+1BcvmVc09z1NyM=\""
+          "Value": "\"ytXuOfhMS8hkoqHUoq/J3MfeUNFGWh/pH5NAdABVatA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
         },
         {
           "Name": "Vary",
@@ -11082,19 +11243,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY=\""
+          "Value": "W/\"+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY="
+          "Value": "sha256-+mwNsG0WegVoYZ7/Z+EKjTddQLkaGuhdoU84lavhgXQ="
         }
       ]
     },
     {
       "Route": "_framework/BlazorApp1.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-zua5wujkqd.gz",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-6daq215qvg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11111,7 +11272,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21865"
+          "Value": "21986"
         },
         {
           "Name": "Content-Type",
@@ -11119,11 +11280,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"s6LL8pPYjtEr2SWzhiSp2CP+g1tE+1BcvmVc09z1NyM=\""
+          "Value": "\"ytXuOfhMS8hkoqHUoq/J3MfeUNFGWh/pH5NAdABVatA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
         },
         {
           "Name": "Vary",
@@ -11133,149 +11294,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-s6LL8pPYjtEr2SWzhiSp2CP+g1tE+1BcvmVc09z1NyM="
+          "Value": "sha256-ytXuOfhMS8hkoqHUoq/J3MfeUNFGWh/pH5NAdABVatA="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorApp1.Client.wasm",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "34069"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:45 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorApp1.Client.wasm",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-y61aa6h16f.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000076248570"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13114"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Klft/61Oq93dUre65cLz/mgJjzsL8CFvUtapdYPkEz0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorApp1.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-y61aa6h16f.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13114"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Klft/61Oq93dUre65cLz/mgJjzsL8CFvUtapdYPkEz0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Klft/61Oq93dUre65cLz/mgJjzsL8CFvUtapdYPkEz0="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BlazorApp1.Client.y61aa6h16f.wasm",
+      "Route": "_framework/BlazorApp1.Client.s9a3phv2cg.wasm",
       "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -11297,21 +11321,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk=\""
+          "Value": "\"wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:45 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y61aa6h16f"
+          "Value": "s9a3phv2cg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk="
+          "Value": "sha256-wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0="
         },
         {
           "Name": "label",
@@ -11320,13 +11344,13 @@
       ]
     },
     {
-      "Route": "_framework/BlazorApp1.Client.y61aa6h16f.wasm",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-y61aa6h16f.gz",
+      "Route": "_framework/BlazorApp1.Client.s9a3phv2cg.wasm",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-s9a3phv2cg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000076248570"
+          "Quality": "0.000074788722"
         }
       ],
       "ResponseHeaders": [
@@ -11344,15 +11368,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13114"
+          "Value": "13370"
         },
         {
           "Name": "ETag",
-          "Value": "\"Klft/61Oq93dUre65cLz/mgJjzsL8CFvUtapdYPkEz0=\""
+          "Value": "\"Bywpx/jNEJxv+RguZPikLdKAAtL+Q6JPW1E2yNrr+Jo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
         },
         {
           "Name": "Vary",
@@ -11364,17 +11388,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk=\""
+          "Value": "W/\"wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y61aa6h16f"
+          "Value": "s9a3phv2cg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dmloKAUEngiREtTaanGkpx97qoUmpNCv62SiIgnHPWk="
+          "Value": "sha256-wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0="
         },
         {
           "Name": "label",
@@ -11383,8 +11407,8 @@
       ]
     },
     {
-      "Route": "_framework/BlazorApp1.Client.y61aa6h16f.wasm.gz",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-y61aa6h16f.gz",
+      "Route": "_framework/BlazorApp1.Client.s9a3phv2cg.wasm.gz",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-s9a3phv2cg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11401,7 +11425,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13114"
+          "Value": "13370"
         },
         {
           "Name": "Content-Type",
@@ -11409,11 +11433,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Klft/61Oq93dUre65cLz/mgJjzsL8CFvUtapdYPkEz0=\""
+          "Value": "\"Bywpx/jNEJxv+RguZPikLdKAAtL+Q6JPW1E2yNrr+Jo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
         },
         {
           "Name": "Vary",
@@ -11423,11 +11447,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "y61aa6h16f"
+          "Value": "s9a3phv2cg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Klft/61Oq93dUre65cLz/mgJjzsL8CFvUtapdYPkEz0="
+          "Value": "sha256-Bywpx/jNEJxv+RguZPikLdKAAtL+Q6JPW1E2yNrr+Jo="
         },
         {
           "Name": "label",
@@ -11436,8 +11460,8 @@
       ]
     },
     {
-      "Route": "_framework/BlazorApp1.Client.zua5wujkqd.pdb",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.pdb",
+      "Route": "_framework/BlazorApp1.Client.wasm",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\BlazorApp1.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11446,48 +11470,40 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
-          "Value": "29776"
+          "Value": "34069"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY=\""
+          "Value": "\"wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:45 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:44 GMT"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "zua5wujkqd"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorApp1.Client.pdb"
+          "Value": "sha256-wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorApp1.Client.zua5wujkqd.pdb",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-zua5wujkqd.gz",
+      "Route": "_framework/BlazorApp1.Client.wasm",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-s9a3phv2cg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000045733102"
+          "Quality": "0.000074788722"
         }
       ],
       "ResponseHeaders": [
@@ -11497,7 +11513,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -11505,15 +11521,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21865"
+          "Value": "13370"
         },
         {
           "Name": "ETag",
-          "Value": "\"s6LL8pPYjtEr2SWzhiSp2CP+g1tE+1BcvmVc09z1NyM=\""
+          "Value": "\"Bywpx/jNEJxv+RguZPikLdKAAtL+Q6JPW1E2yNrr+Jo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
         },
         {
           "Name": "Vary",
@@ -11521,31 +11537,23 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY=\""
+          "Value": "W/\"wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "zua5wujkqd"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-O07wm1U5proUonpKy28BQP+6sso014M0uboqWmuBaqY="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorApp1.Client.pdb"
+          "Value": "sha256-wGOzRjHsZ+EkNbdapOo+nAwNzupXXr9/8sKnpSNZPX0="
         }
       ]
     },
     {
-      "Route": "_framework/BlazorApp1.Client.zua5wujkqd.pdb.gz",
-      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\rud6kqy1tt-zua5wujkqd.gz",
+      "Route": "_framework/BlazorApp1.Client.wasm.gz",
+      "AssetFile": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\obj\\Debug\\net9.0\\compressed\\ze2qwtpi57-s9a3phv2cg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11554,7 +11562,7 @@
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -11562,19 +11570,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21865"
+          "Value": "13370"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "application/wasm"
         },
         {
           "Name": "ETag",
-          "Value": "\"s6LL8pPYjtEr2SWzhiSp2CP+g1tE+1BcvmVc09z1NyM=\""
+          "Value": "\"Bywpx/jNEJxv+RguZPikLdKAAtL+Q6JPW1E2yNrr+Jo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Apr 2025 00:25:46 GMT"
+          "Value": "Sat, 19 Apr 2025 02:17:45 GMT"
         },
         {
           "Name": "Vary",
@@ -11583,16 +11591,8 @@
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "zua5wujkqd"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-s6LL8pPYjtEr2SWzhiSp2CP+g1tE+1BcvmVc09z1NyM="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BlazorApp1.Client.pdb.gz"
+          "Value": "sha256-Bywpx/jNEJxv+RguZPikLdKAAtL+Q6JPW1E2yNrr+Jo="
         }
       ]
     },

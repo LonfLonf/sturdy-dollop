@@ -1,9 +1,11 @@
 using BlazorApp1.Client.Pages;
 using BlazorApp1.Components;
+using BlazorApp1.Model;
 using BlazorApp1.Services;
 using English.Data;
 using English.Services;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +30,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddTransient<WordsService>();
-builder.Services.AddScoped<FREService>();
+builder.Services.AddTransient<FREService>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

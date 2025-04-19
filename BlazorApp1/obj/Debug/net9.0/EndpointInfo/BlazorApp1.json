@@ -62,7 +62,47 @@
         }
       }
     },
-    "/api/FRE/GetRandomFreByRanking/{Ranking}": {
+    "/api/FRE/GetRandomFreByRankingFUCK/{Ranking}": {
+      "get": {
+        "tags": [
+          "FRE"
+        ],
+        "parameters": [
+          {
+            "name": "Ranking",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/RandomFreDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RandomFreDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RandomFreDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/FRE/AAAAAAAAAAAAAA/{Ranking}": {
       "get": {
         "tags": [
           "FRE"

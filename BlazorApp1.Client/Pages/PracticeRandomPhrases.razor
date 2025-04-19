@@ -69,7 +69,7 @@
     {
         DefaultTextConfigs();
 
-        using HttpResponseMessage responseMessage = await httpClient.GetAsync(uri + "GetRandomFreByRanking/" + Convert.ToInt16(selectedValue));
+        using HttpResponseMessage responseMessage = await httpClient.GetAsync(uri + "GetRandomFre/" + Convert.ToInt16(selectedValue));
 
         if (responseMessage.IsSuccessStatusCode)
         {

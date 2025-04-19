@@ -14,9 +14,9 @@ namespace English.Controller
     {
         public FREService FREService { get; set; }
 
-        public FREController(FREService FREService)
+        public FREController(FREService fREService)
         {
-            this.FREService = FREService;
+            FREService = fREService;
         }
 
         /*
@@ -49,7 +49,7 @@ namespace English.Controller
             return Ok(response);
         }
 
-        [HttpGet("GetRandomFreByRanking/{Ranking}")]
+        [HttpGet("GetRandomFre/{Ranking}")]
         public async Task<ActionResult<RandomFreDTO>> GetRandomFreByRanking(int Ranking)
         {
             var response = await FREService.GetRandomFreByRanking(Ranking);
@@ -62,7 +62,7 @@ namespace English.Controller
             return Ok(new RandomFreDTO(response.Id, response.Text, response.Traduction, response.Ranking));
         }
 
-        
+
         /*
         [HttpGet("GetFreById/{Id}")]
         public async Task<ActionResult<FRE>> GetFreById(int Id)

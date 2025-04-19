@@ -1,6 +1,32 @@
 [
   {
     "ContainingType": "English.Controller.FREController",
+    "Method": "AAAAAAAAAAAAAAAAA",
+    "RelativePath": "api/FRE/AAAAAAAAAAAAAA/{Ranking}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Ranking",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BlazorApp1.DTO.RandomFreDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "English.Controller.FREController",
     "Method": "GetAllFreByRanking",
     "RelativePath": "api/FRE/GetFreByRanking/{Id}",
     "HttpMethod": "GET",
@@ -33,7 +59,7 @@
   {
     "ContainingType": "English.Controller.FREController",
     "Method": "GetRandomFreByRanking",
-    "RelativePath": "api/FRE/GetRandomFreByRanking/{Ranking}",
+    "RelativePath": "api/FRE/GetRandomFreByRankingFUCK/{Ranking}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

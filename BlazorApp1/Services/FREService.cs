@@ -40,13 +40,17 @@ namespace English.Services
         {
             var query = @"
                 SELECT * 
-                FROM ""FREs"" 
-                WHERE ""Ranking"" = {0} 
-                OFFSET floor(random() * (SELECT COUNT(*) FROM ""FREs"" WHERE ""Ranking"" = {0})) 
-                LIMIT 1;
-            ";
+                FROM fres 
+                WHERE Ranking = {0} 
+                OFFSET floor(random() * (SELECT COUNT(*) FROM FREs WHERE Ranking = {0})) 
+                LIMIT 1
+                ";
 
-            return await _dbContext.FREs.FromSqlRaw(query, Ranking).FirstOrDefaultAsync();
+            var randomFre = await _dbContext.FREs
+                .FromSqlRaw(query, 5)
+                .FirstOrDefaultAsync();
+
+            return randomFre;
         }
         
         /*
