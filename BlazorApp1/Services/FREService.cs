@@ -38,6 +38,12 @@ namespace English.Services
 
         public async Task<FRE> GetRandomFreByRanking(int Ranking)
         {
+            return await _dbContext.FREs.FromSqlRaw("SELECT TOP 1 * FROM FREs WHERE Ranking = {0} ORDER BY NEWID()", Ranking).FirstOrDefaultAsync();
+        }
+
+        /*
+        public async Task<FRE> suck(int Ranking)
+        {
             List<FRE> listFre = await GetAllFreByRanking(Ranking);
 
             Random random = new Random();
@@ -45,6 +51,7 @@ namespace English.Services
 
             return listFre[index]; 
         }
+        */
 
         public async Task<FRE> GetFreById(int Id)
         {

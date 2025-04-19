@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\pages\\practicerandomwords.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\pages\\practicerandomwords.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1.client\\pages\\practicerandomphrases.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{885E6052-5832-49F5-AB99-F0F6037118D3}|BlazorApp1.Client\\BlazorApp1.Client.csproj|solutionrelative:blazorapp1.client\\pages\\practicerandomphrases.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{103BC18D-C0C8-46A1-B139-08467B9B4A24}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\firey\\desktop\\littethings\\littlelittlethings\\littlelittlelittlethings\\littlequiz\\blazorapp1\\blazorapp1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 317,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,8 +150,7 @@
               "RelativeToolTip": "BlazorApp1\\Controller\\WordsController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwCUAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T20:45:13.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T20:45:13.994Z"
             },
             {
               "$type": "Document",
@@ -163,8 +162,7 @@
               "RelativeToolTip": "BlazorApp1\\Components\\App.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T00:38:39.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T00:38:39.086Z"
             },
             {
               "$type": "Document",
@@ -175,12 +173,11 @@
               "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\wwwroot\\favicon.png",
               "RelativeToolTip": "BlazorApp1\\wwwroot\\favicon.png",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-04-12T00:49:00.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T00:49:00.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorApp1\\appsettings.json",
@@ -201,8 +198,7 @@
               "RelativeToolTip": "BlazorApp1\\Controller\\FREController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAH4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:56.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:32:56.94Z"
             },
             {
               "$type": "Document",
@@ -214,12 +210,11 @@
               "RelativeToolTip": "BlazorApp1.Client\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T16:44:34.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:44:34.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PracticeRandomPhrases.razor",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
@@ -227,8 +222,7 @@
               "RelativeToolTip": "BlazorApp1.Client\\Pages\\PracticeRandomPhrases.razor",
               "ViewState": "AgIAAC4AAAAAAAAAAAAwwEEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T18:09:15.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:09:15.115Z"
             },
             {
               "$type": "Document",
@@ -240,18 +234,17 @@
               "RelativeToolTip": "BlazorApp1\\Model\\FRE\\FRE.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:12.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:31:12.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PracticeRandomWords.razor",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
               "RelativeDocumentMoniker": "BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
               "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
               "RelativeToolTip": "BlazorApp1.Client\\Pages\\PracticeRandomWords.razor",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAAAEoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-11T15:58:03.264Z",
               "EditorCaption": ""
@@ -266,12 +259,11 @@
               "RelativeToolTip": "BlazorApp1\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:30:38.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:30:38.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
@@ -279,8 +271,7 @@
               "RelativeToolTip": "BlazorApp1\\Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:33:17.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:33:17.243Z"
             },
             {
               "$type": "Document",
@@ -292,12 +283,7 @@
               "RelativeToolTip": "BlazorApp1.Client\\wwwroot\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-12T07:22:02.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-04-12T07:22:02.904Z"
             },
             {
               "$type": "Document",
@@ -309,8 +295,7 @@
               "RelativeToolTip": "BlazorApp1\\Services\\FREService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:42.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:32:42.576Z"
             },
             {
               "$type": "Document",
@@ -322,8 +307,7 @@
               "RelativeToolTip": "BlazorApp1\\Model\\Words.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T20:03:21.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T20:03:21.492Z"
             },
             {
               "$type": "Document",
@@ -335,21 +319,19 @@
               "RelativeToolTip": "BlazorApp1.Client\\Layout\\NavBar.razor",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T18:09:11.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:09:11.58Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "BlazorApp1",
+              "Title": "BlazorApp1.csproj",
               "DocumentMoniker": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
               "RelativeDocumentMoniker": "BlazorApp1\\BlazorApp1.csproj",
               "ToolTip": "C:\\Users\\firey\\Desktop\\litteThings\\LittleLittleThings\\LittleLittleLittleThings\\LittleQuiz\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
               "RelativeToolTip": "BlazorApp1\\BlazorApp1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-12T05:59:10.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-12T05:59:10.327Z"
             },
             {
               "$type": "Document",
@@ -361,8 +343,7 @@
               "RelativeToolTip": "BlazorApp1.Client\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T16:44:51.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:44:51.607Z"
             },
             {
               "$type": "Document",
@@ -374,8 +355,7 @@
               "RelativeToolTip": "BlazorApp1\\Model\\Requests\\TextRequestWithTraduction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:21.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:31:21.751Z"
             },
             {
               "$type": "Document",
@@ -387,8 +367,7 @@
               "RelativeToolTip": "BlazorApp1.Client\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:17:35.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:17:35.969Z"
             },
             {
               "$type": "Document",
@@ -400,8 +379,7 @@
               "RelativeToolTip": "BlazorApp1\\Records\\FreApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:23.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:32:23.532Z"
             },
             {
               "$type": "Document",
@@ -413,8 +391,7 @@
               "RelativeToolTip": "BlazorApp1\\wwwroot\\app.css",
               "ViewState": "AgIAADIAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-10T16:45:40.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:45:40.042Z"
             },
             {
               "$type": "Document",
@@ -426,8 +403,7 @@
               "RelativeToolTip": "BlazorApp1\\Services\\WordsService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAxwEUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T20:05:03.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T20:05:03.404Z"
             },
             {
               "$type": "Document",
@@ -439,8 +415,7 @@
               "RelativeToolTip": "BlazorApp1\\Records\\AnswerFreApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:09.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:32:09.614Z"
             },
             {
               "$type": "Document",
@@ -452,8 +427,7 @@
               "RelativeToolTip": "BlazorApp1\\Model\\Requests\\WordsRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T20:57:20.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T20:57:20.205Z"
             },
             {
               "$type": "Document",
@@ -465,8 +439,7 @@
               "RelativeToolTip": "BlazorApp1\\Model\\FRE\\FREHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:16.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:31:16.336Z"
             },
             {
               "$type": "Document",
@@ -478,8 +451,7 @@
               "RelativeToolTip": "BlazorApp1\\Enums\\Correctness.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:32:17.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:32:17.505Z"
             },
             {
               "$type": "Document",
@@ -491,8 +463,7 @@
               "RelativeToolTip": "BlazorApp1\\Model\\AnswerFre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:24.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:31:24.678Z"
             },
             {
               "$type": "Document",
@@ -504,8 +475,7 @@
               "RelativeToolTip": "BlazorApp1\\DTO\\RandomFreDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T18:46:57.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:46:57.461Z"
             },
             {
               "$type": "Document",
@@ -517,8 +487,7 @@
               "RelativeToolTip": "BlazorApp1.Client\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T18:09:13.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:09:13.279Z"
             },
             {
               "$type": "Document",
@@ -530,8 +499,7 @@
               "RelativeToolTip": "BlazorApp1\\Model\\Requests\\TextRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:31:19.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:31:19.313Z"
             },
             {
               "$type": "Document",
@@ -543,8 +511,11 @@
               "RelativeToolTip": "BlazorApp1.Client\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T16:30:06.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T16:30:06.441Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         },
