@@ -38,8 +38,15 @@ namespace English.Services
 
         public async Task<FRE> GetRandomFreByRanking(int Ranking)
         {
-            var result = await _dbContext.FREs.FromSqlRaw("SELECT TOP 1 * FROM FREs WHERE Ranking = {0} ORDER BY NEWID()", Ranking).ToListAsync();
-            return result.FirstOrDefault();
+            var query = @"
+                SELECT * 
+                FROM ""FREs"" 
+                WHERE ""Ranking"" = {0} 
+                OFFSET floor(random() * (SELECT COUNT(*) FROM ""FREs"" WHERE ""Ranking"" = {0})) 
+                LIMIT 1;
+            ";
+
+            return await _dbContext.FREs.FromSqlRaw(query, Ranking).FirstOrDefaultAsync();
         }
         
         /*
