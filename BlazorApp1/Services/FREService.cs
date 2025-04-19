@@ -38,18 +38,18 @@ namespace English.Services
 
         public async Task<FRE> GetRandomFreByRanking(int Ranking)
         {
-            return await _dbContext.FREs.FromSqlRaw("SELECT TOP 1 * FROM FREs WHERE Ranking = {0} ORDER BY NEWID()", Ranking).FirstOrDefaultAsync();
+            var result = await _dbContext.FREs.FromSqlRaw("SELECT TOP 1 * FROM FREs WHERE Ranking = {0} ORDER BY NEWID()", Ranking).ToListAsync();
+            return result.FirstOrDefault();
         }
-
+        
         /*
-        public async Task<FRE> suck(int Ranking)
+        public async Task<FRE> GetRandomFreByRanking(int Ranking)
         {
             List<FRE> listFre = await GetAllFreByRanking(Ranking);
-
             Random random = new Random();
             int index = random.Next(listFre.Count());
 
-            return listFre[index]; 
+            return listFre[index];
         }
         */
 

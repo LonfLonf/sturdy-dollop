@@ -27,8 +27,8 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSingleton<WordsService>();
-builder.Services.AddSingleton<FREService>();
+builder.Services.AddTransient<WordsService>();
+builder.Services.AddScoped<FREService>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
